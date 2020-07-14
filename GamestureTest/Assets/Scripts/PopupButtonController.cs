@@ -23,13 +23,13 @@ namespace GamestureTest
 
 		#region public methods
 
-		public void ShowPopup()
+		public void ShowPopup() // inspector method
 		{
 			popupGameObject.SetActive(true);
 			SetPopupTrigger();
 		}
 
-		public void HidePopup()
+		public void HidePopup() // inspector method
 		{
 			SetPopupTrigger();
 		}
